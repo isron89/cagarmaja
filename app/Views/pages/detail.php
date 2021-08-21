@@ -90,7 +90,7 @@
         </div>
     </header><!-- End Header -->
 
-    <div class="container" style="padding-top: 120px;">
+    <div class="container" style="padding-top: 110px;">
         <div class="row">
 
             <div class="col-md-7" data-aos="fade-up" data-aos-delay="200">
@@ -107,7 +107,6 @@
                             <tr>
                                 <td>Nama Cagar Budaya</td>
                                 <td>
-
                                     <h5><?= $cagar['nama_cagar']; ?></h5>
                                 </td>
                             </tr>
@@ -115,6 +114,12 @@
                                 <td>Kode Pengelolaan</td>
                                 <td>
                                     <h5><?= $cagar['kode_pengelolaan']; ?></h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Alamat</td>
+                                <td>
+                                    <h5><?= $cagar['alamat']; ?></h5>
                                 </td>
                             </tr>
                             <tr>

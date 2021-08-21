@@ -134,8 +134,8 @@
           function initialize() {
 
             var mapOptions = {
-              zoom: 12.5,
-              center: new google.maps.LatLng(-7.261184839447646, 112.74293031897085),
+              zoom: 12.3,
+              center: new google.maps.LatLng(-7.564261940552235, 112.47018107103338),
               disableDefaultUI: false
             };
 
@@ -226,12 +226,12 @@
                 <table class="table table-bordered table-striped table-admin">
                   <thead>
                     <tr>
-                      <th width="5%">No.</th>
-                      <th width="25%">Nama Cagar Budaya</th>
-                      <th width="10%">Kode Pengelolaan</th>
-                      <th width="20%">Desa</th>
-                      <th width="20%">Kecamatan</th>
-                      <th width="20%">Aksi</th>
+                      <th width="5%" style="text-align: center;">No.</th>
+                      <th width="30%" style="text-align: center;">Nama Cagar Budaya</th>
+                      <th width="30%" style="text-align: center;">Alamat</th>
+                      <th width="15%" style="text-align: center;">Desa</th>
+                      <th width="15%" style="text-align: center;">Kecamatan</th>
+                      <th width="5%" style="text-align: center;">Aksi</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -240,12 +240,12 @@
                       <tr>
                         <td><?php echo $no; ?></td>
                         <td><?= $cag['nama_cagar']; ?></td>
-                        <td><?= $cag['kode_pengelolaan']; ?></td>
+                        <td><?= $cag['alamat']; ?></td>
                         <td><?= $cag['desa']; ?></td>
                         <td><?= $cag['kecamatan']; ?></td>
                         <td class="ctr">
                           <div class="btn-get-started">
-                            <a href="/cagar/<?= $cag['id_cagar']; ?>" rel="tooltip" data-original-title="Lihat File" data-placement="top">
+                            <a href="/cagar/<?= $cag['id_cagar']; ?>" rel="tooltip noopener noreferrer" target="_blank" data-original-title="Lihat File" data-placement="top">
                               <i class="fa fa-map-marker"> </i> Detail</a>&nbsp;
                           </div>
                         </td>

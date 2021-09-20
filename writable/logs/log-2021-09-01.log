@@ -1,0 +1,47 @@
+CRITICAL - 2021-09-01 08:03:26 --> Undefined variable: csrf_field
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Views\admin\create.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Kuliah\\Skrip...', 40, Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(230): include('E:\\Kuliah\\Skrip...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/create', Array, true)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(32): view('admin/create', Array)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->create()
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#10 {main}
+CRITICAL - 2021-09-01 12:10:51 --> Undefined property: CodeIgniter\Validation\Validation::$getError
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Views\admin\create.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Kuliah\\Skrip...', 44, Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(230): include('E:\\Kuliah\\Skrip...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/create', Array, true)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(35): view('admin/create', Array)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->create()
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#10 {main}
+CRITICAL - 2021-09-01 12:36:47 --> Undefined variable: old
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Views\admin\create.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Kuliah\\Skrip...', 45, Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(230): include('E:\\Kuliah\\Skrip...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/create', Array, true)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(35): view('admin/create', Array)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->create()
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#10 {main}
+CRITICAL - 2021-09-01 12:42:45 --> Nama cagar budaya harus diisi is not a valid rule.
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Nama cagar buda...')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('nama_cagar', 'nama_cagar', '', Array, Array)
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(42): CodeIgniter\Controller->validate(Array)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->save()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#9 {main}

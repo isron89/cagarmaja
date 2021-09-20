@@ -34,6 +34,11 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/cagar/(:segment)', 'Cagar::detail/$1');
 
+$routes->get('/admin', 'Admin::index');
+$routes->get('/admin/create', 'Admin::create');
+$routes->get('/admin/edit/(:segment)', 'Admin::edit/$1');
+$routes->delete('/admin/(:num)', 'Admin::hapus/$1');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

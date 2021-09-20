@@ -184,45 +184,34 @@
             </div>
 
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="/assets/img/<?= $cagar['nama_cagar']; ?>/<?= $cagar['nama_cagar']; ?>1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <!-- <h4>App 1</h4>
+                <?php for ($s = 1; $s <= 3; $s++) { ?>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/img/foto/<?= $cagar['nama_cagar']; ?><?= $s; ?>.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <!-- <h4>App 1</h4>
                             <p>App</p> -->
-                            <div class="portfolio-links">
-                                <a href="/assets/img/<?= $cagar['nama_cagar']; ?>/<?= $cagar['nama_cagar']; ?>1.jpg" data-gall="portfolioGallery" class="venobox" title="<?= $cagar['nama_cagar']; ?>"><i class="bx bx-plus"></i></a>
-                                <!-- <a href="" title="More Details"><i class="bx bx-link"></i></a> -->
+                                <div class="portfolio-links">
+                                    <a href="/assets/img/foto/<?= $cagar['nama_cagar']; ?><?= $s; ?>.jpg" data-gall="portfolioGallery" class="venobox" title="<?= $cagar['nama_cagar']; ?>"><i class="bx bx-plus"></i></a>
+                                    <!-- <a href="" title="More Details"><i class="bx bx-link"></i></a> -->
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <?php } ?>
+                <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="/assets/img/<?= $cagar['nama_cagar']; ?>/<?= $cagar['nama_cagar']; ?>2.jpg" class="img-fluid" alt="">
+                        <img src="/assets/img/2.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <!-- <h4>App 1</h4>
-                            <p>App</p> -->
+                            <h4>App 1</h4>
+                            <p>App</p>
                             <div class="portfolio-links">
-                                <a href="/assets/img/<?= $cagar['nama_cagar']; ?>/<?= $cagar['nama_cagar']; ?>2.jpg" data-gall="portfolioGallery" class="venobox" title="<?= $cagar['nama_cagar']; ?>"><i class="bx bx-plus"></i></a>
-                                <!-- <a href="" title="More Details"><i class="bx bx-link"></i></a> -->
+                                <a href="/assets/img/2.jpg" data-gall="portfolioGallery" class="venobox" title=""><i class="bx bx-plus"></i></a>
+                                <a href="" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="/assets/img/<?= $cagar['nama_cagar']; ?>/<?= $cagar['nama_cagar']; ?>3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <!-- <h4>App 1</h4>
-                            <p>App</p> -->
-                            <div class="portfolio-links">
-                                <a href="/assets/img/<?= $cagar['nama_cagar']; ?>/<?= $cagar['nama_cagar']; ?>3.jpg" data-gall="portfolioGallery" class="venobox" title="<?= $cagar['nama_cagar']; ?>"><i class="bx bx-plus"></i></a>
-                                <!-- <a href="" title="More Details"><i class="bx bx-link"></i></a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> -->
             </div>
 
         </div>

@@ -1,0 +1,16 @@
+CRITICAL - 2021-09-18 06:14:49 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\spark(46): require('E:\\Kuliah\\Skrip...')
+#2 {main}
+CRITICAL - 2021-09-18 06:57:05 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\spark(46): require('E:\\Kuliah\\Skrip...')
+#2 {main}
+CRITICAL - 2021-09-18 16:00:46 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\spark(46): require('E:\\Kuliah\\Skrip...')
+#2 {main}
+CRITICAL - 2021-09-18 16:01:56 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\spark(46): require('E:\\Kuliah\\Skrip...')
+#2 {main}

@@ -1,0 +1,119 @@
+ERROR - 2021-09-02 00:17:10 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-02 00:17:10 --> Unknown column 'id' in 'where clause'
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `ca...')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->hapus('44')
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#12 {main}
+ERROR - 2021-09-02 00:19:04 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-02 00:19:04 --> Unknown column 'id' in 'where clause'
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `ca...')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->hapus('44')
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#12 {main}
+ERROR - 2021-09-02 00:22:35 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-02 00:22:35 --> Unknown column 'id' in 'where clause'
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `ca...')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->hapus('44')
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#12 {main}
+ERROR - 2021-09-02 00:22:54 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-02 00:22:54 --> Unknown column 'id' in 'where clause'
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `ca...')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->hapus('44')
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#12 {main}
+ERROR - 2021-09-02 00:24:40 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-09-02 00:24:40 --> Unknown column 'id' in 'where clause'
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `ca...')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ca...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ca...')
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ca...', Array, false)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->delete(Array)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->hapus('44')
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#12 {main}
+CRITICAL - 2021-09-02 01:43:25 --> Trying to access array offset on value of type null
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Views\admin\edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\Kuliah\\Skrip...', 39, Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(230): include('E:\\Kuliah\\Skrip...')
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/edit', Array, true)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(134): view('admin/edit', Array)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->edit('44')
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#10 {main}
+CRITICAL - 2021-09-02 01:58:53 --> Object of class App\Controllers\Admin could not be converted to string
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->update('47')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#5 {main}
+CRITICAL - 2021-09-02 02:02:58 --> Object of class App\Controllers\Admin could not be converted to string
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->update('47')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#5 {main}
+CRITICAL - 2021-09-02 02:04:36 --> Object of class App\Controllers\Admin could not be converted to string
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->update('47')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#5 {main}
+CRITICAL - 2021-09-02 09:06:17 --> main_in is not a valid rule.
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('main_in')
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('foto', 'foto', NULL, Array, Array)
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Admin.php(42): CodeIgniter\Controller->validate(Array)
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Admin->save()
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#9 {main}

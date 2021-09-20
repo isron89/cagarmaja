@@ -1,0 +1,27 @@
+CRITICAL - 2021-08-19 06:44:26 --> Call to undefined method App\Models\dataModel::getNumRows
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Models\dataModel.php(24): CodeIgniter\Model->__call('getNumRows', Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Home.php(18): App\Models\dataModel->getVerif()
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#7 {main}
+CRITICAL - 2021-08-19 06:59:29 --> Undefined variable: db
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Models\dataModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Kuliah\\Skrip...', 27, Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Home.php(18): App\Models\dataModel->getVerif()
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#7 {main}
+CRITICAL - 2021-08-19 07:02:14 --> Call to undefined method App\Models\dataModel::getNumRows
+#0 E:\Kuliah\Skripsi\Project\sig-cagar\app\Models\dataModel.php(33): CodeIgniter\Model->__call('getNumRows', Array)
+#1 E:\Kuliah\Skripsi\Project\sig-cagar\app\Controllers\Home.php(19): App\Models\dataModel->getNotVerif()
+#2 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#3 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Kuliah\Skripsi\Project\sig-cagar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Kuliah\Skripsi\Project\sig-cagar\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('E:\\Kuliah\\Skrip...')
+#7 {main}

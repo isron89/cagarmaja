@@ -22,6 +22,11 @@ class Cagar extends BaseController
             'cagar' => $cagar
         ];
 
+        //jika id tidak ada
+        if (empty($data['cagar'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException("ID cagar " . $id . " Tidak ditemukan");
+        }
+
         return view('pages/detail', $data);
     }
 }

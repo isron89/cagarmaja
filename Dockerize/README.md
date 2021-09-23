@@ -3,6 +3,7 @@
 Copy project to src then run docker
 
 - docker-compose up
+- import database to mysql with adminer
 - setting mysql configuration
 
 

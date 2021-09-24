@@ -23,5 +23,5 @@ open admin:
 - route url to 'path/admin'
 - username -> admin, password -> cagarmaja
 
-pull php apache dockerize application on:
+alternative pull php apache dockerize application on:
 https://hub.docker.com/r/isron89/docker-php-apache-mysql-adminer

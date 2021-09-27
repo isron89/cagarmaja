@@ -1,6 +1,6 @@
-# cagarmaja
+# CagarMaja
 
-Sistem Informasi Geografis Cagar Budaya Mojokerto berbasis website dengan php framework codeigniter4, database mysql.
+Sistem Informasi Geografis Cagar Budaya Kabupaten Mojokerto berbasis website dengan php framework codeigniter4, database mysql.
 
 running on php server with spark:
 - import database

@@ -2,7 +2,7 @@
 
 Sistem Informasi Geografis Cagar Budaya Kabupaten Mojokerto berbasis website dengan php framework codeigniter4, database mysql.
 
-running on php server with spark:
+running on php server with php spark:
 - import database
 - edit environtment variable in .env
 - open cmd to project path

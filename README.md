@@ -5,8 +5,8 @@ Sistem Informasi Geografis Cagar Budaya Kabupaten Mojokerto berbasis website den
 running on php server with php spark:
 - import database
 - edit environtment variable in .env
-- open cmd to project path
-- php spark serve
+- open cmd on project path
+- run 'php spark serve'
 - open in browser http://localhost:8080/
 
 running on docker development server(PHP-Apache, Mysql, Adminer):

@@ -9,7 +9,7 @@ running on php server with php spark:
 - php spark serve
 - open in browser http://localhost:8080/
 
-running on docker development server(Apache, Mysql, Adminer):
+running on docker development server(PHP-Apache, Mysql, Adminer):
 - copy project to Dockerize/src
 - open cmd to dockerize path
 - run docker compose: docker-compose up

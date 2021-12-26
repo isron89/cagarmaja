@@ -25,3 +25,7 @@ open admin:
 
 alternative pull php apache dockerize application on:
 https://hub.docker.com/r/isron89/docker-php-apache-mysql-adminer
+
+Minimum requirements :
+PHP 5.x
+MySql 5.x atau MariaDB 5.x

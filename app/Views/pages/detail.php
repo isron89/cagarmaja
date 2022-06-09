@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCSFa2gS3ZZN-UJR-47e8Rs1w6XKzcnjwI"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=<?php echo $_ENV['GMAPS_API_KEY']; ?>"></script>
 
 <script type="text/javascript">
     function initialize() {

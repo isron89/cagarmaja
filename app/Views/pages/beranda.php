@@ -128,7 +128,7 @@
       </div>
       <div class="panel-body" style="align-content: center;">
         <div id="map" style="width:100%;height:480px;"></div>
-        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCSFa2gS3ZZN-UJR-47e8Rs1w6XKzasHni"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=<?php echo $_ENV['GMAPS_API_KEY']; ?>"></script>
 
         <script type="text/javascript">
           function initialize() {
